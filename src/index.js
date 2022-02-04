@@ -7,5 +7,5 @@ const options = {
   to: '/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/',
 };
 
-replaceFontPaths(options);
+replaceFontPaths();
 
