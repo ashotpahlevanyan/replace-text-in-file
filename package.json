@@ -7,10 +7,14 @@
     "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "replace-text-in-file": "bin/run.js"
+  },
   "author": "Ashot Pahlevanyan",
   "license": "MIT",
   "dependencies": {
-    "replace-in-file": "^6.3.2"
+    "replace-in-file": "^6.3.2",
+    "shelljs": "^0.8.5"
   },
   "devDependencies": {},
   "repository": {

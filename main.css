@@ -5387,32 +5387,32 @@ body.modal-open .calendarNav__inner {
 
 @font-face {
     font-family: "Manulife JH Sans";
-    src: url(/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/-Light.f6244442.eot);
-    src: url(/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/-Light.f6244442.eot) format("embedded-opentype"), url(/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/-Light.84605d87.woff2) format("woff2"), url(/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/-Light.d87e761d.woff) format("woff");
+    src: url(/static/media/ManulifeJHSans-Light.f6244442.eot);
+    src: url(/static/media/ManulifeJHSans-Light.f6244442.eot) format("embedded-opentype"), url(/static/media/ManulifeJHSans-Light.84605d87.woff2) format("woff2"), url(/static/media/ManulifeJHSans-Light.d87e761d.woff) format("woff");
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: "Manulife JH Sans";
-    src: url(/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/-Regular.e217ffe4.eot);
-    src: url(/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/-Regular.e217ffe4.eot) format("embedded-opentype"), url(/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/-Regular.09b3a204.woff2) format("woff2"), url(/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/-Regular.c7f31964.woff) format("woff");
+    src: url(/static/media/ManulifeJHSans-Regular.e217ffe4.eot);
+    src: url(/static/media/ManulifeJHSans-Regular.e217ffe4.eot) format("embedded-opentype"), url(/static/media/ManulifeJHSans-Regular.09b3a204.woff2) format("woff2"), url(/static/media/ManulifeJHSans-Regular.c7f31964.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: "Manulife JH Sans";
-    src: url(/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/-Demibold.4587f345.eot);
-    src: url(/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/-Demibold.4587f345.eot) format("embedded-opentype"), url(/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/-Demibold.e418149c.woff2) format("woff2"), url(/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/-Demibold.d8721671.woff) format("woff");
+    src: url(/static/media/ManulifeJHSans-Demibold.4587f345.eot);
+    src: url(/static/media/ManulifeJHSans-Demibold.4587f345.eot) format("embedded-opentype"), url(/static/media/ManulifeJHSans-Demibold.e418149c.woff2) format("woff2"), url(/static/media/ManulifeJHSans-Demibold.d8721671.woff) format("woff");
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: "Manulife JH Sans";
-    src: url(/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/-Bold.ceff3f1a.eot);
-    src: url(/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/-Bold.ceff3f1a.eot) format("embedded-opentype"), url(/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/-Bold.74fe7bc3.woff2) format("woff2"), url(/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/-Bold.45b238c7.woff) format("woff");
+    src: url(/static/media/ManulifeJHSans-Bold.ceff3f1a.eot);
+    src: url(/static/media/ManulifeJHSans-Bold.ceff3f1a.eot) format("embedded-opentype"), url(/static/media/ManulifeJHSans-Bold.74fe7bc3.woff2) format("woff2"), url(/static/media/ManulifeJHSans-Bold.45b238c7.woff) format("woff");
     font-weight: 700;
     font-style: normal
 }
