@@ -1,5 +1,5 @@
 {
-  "name": "replace-text-in-file",
+  "name": "@ashotpahlevanyan/replace-text-in-file",
   "version": "0.1.0",
   "description": "patch css files for aem after build",
   "main": "src/index.js",
@@ -11,5 +11,19 @@
   "license": "MIT",
   "dependencies": {
     "replace-in-file": "^6.3.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashotpahlevanyan/replace-text-in-file.git"
+  },
+  "keywords": [
+    "aem",
+    "create-react-app",
+    "fonts"
+  ],
+  "bugs": {
+    "url": "https://github.com/ashotpahlevanyan/replace-text-in-file/issues"
+  },
+  "homepage": "https://github.com/ashotpahlevanyan/replace-text-in-file#readme"
 }
