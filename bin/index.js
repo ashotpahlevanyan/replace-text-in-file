@@ -1,4 +1,14 @@
+#! /usr/bin/env node
+
 const replace = require('replace-in-file');
+
+const localOptions = {
+  files: [
+    './main.css'
+  ],
+  from: /\/static\/media\/ManulifeJHSans/g,
+  to: '/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/',
+};
 
 const defaultOptions = {
   files: [
@@ -8,10 +18,12 @@ const defaultOptions = {
   to: '/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/ManulifeJH',
 };
 
-module.exports = function replaceFontPaths(options = defaultOptions) {
+function replaceFontPaths(options = defaultOptions) {
   replace(options).then((res) => {
     console.log(`Done: ${JSON.stringify(res)}`)
   }).catch((e) => {
     console.log(`Error replacing fonts: ${e}`)
   });
-};
+}
+
+replaceFontPaths();
