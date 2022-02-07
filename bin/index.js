@@ -6,16 +6,16 @@ const localOptions = {
   files: [
     './main.css'
   ],
-  from: /\/static\/media\/ManulifeJHSans/g,
-  to: '/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/',
+  from: /\/static\/media\/ManulifeJH([a-zA-Z0-9_-]*).([a-zA-Z0-9]*).([a-zA-Z0-9]*)/g,
+  to: "/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/ManulifeJH$1.$3",
 };
 
 const defaultOptions = {
   files: [
     './build/static/css/*.css'
   ],
-  from: /\/static\/media\/ManulifeJH/g,
-  to: '/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/ManulifeJH',
+  from: /\/static\/media\/ManulifeJH([a-zA-Z0-9_-]*).([a-zA-Z0-9]*).([a-zA-Z0-9]*)/g,
+  to: '/etc.clientlibs/jhi-commons-v1/clientlibs/clientlib-base/resources/ManulifeJH$1.$3',
 };
 
 function replaceFontPaths(options = defaultOptions) {

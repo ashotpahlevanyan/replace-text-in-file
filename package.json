@@ -1,6 +1,6 @@
 {
   "name": "@ashotpahlevanyan/replace-text-in-file",
-  "version": "0.1.115",
+  "version": "0.2.1",
   "description": "patch css files for aem after build",
   "author": "Ashot Pahlevanyan",
   "license": "MIT",
